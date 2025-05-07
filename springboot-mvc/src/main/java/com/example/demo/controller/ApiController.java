@@ -69,7 +69,7 @@ public class ApiController {
 	*/
 	
 	// 老師寫的
-	@GetMapping("/bmi")
+	@GetMapping(value = "/bmi", produces = "application/json;charset=utf-8")
 	public String calcBmi(@RequestParam double h, @RequestParam double w) {
 		double bmi = w / Math.pow(h/100, 2);
 		return """
