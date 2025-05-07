@@ -57,7 +57,7 @@ public class ApiController {
 	 * 網址: http://localhost:8080/api/bmi?h=170&w=60
 	 * 執行結果: bmi = 20.76
 	 * */
-	
+	/*我寫的
 	@GetMapping("/bmi")
 	public String bmi(@RequestParam(value = "h", required = true) Integer height,
 			          @RequestParam(value = "w", required = true) Integer weight) {
@@ -65,6 +65,24 @@ public class ApiController {
 		double b = weight/(a*a);
 		String bmi = String.format("bmi = %.2f", b);
 		return bmi;
+	}
+	*/
+	
+	// 老師寫的
+	@GetMapping("/bmi")
+	public String calcBmi(@RequestParam double h, @RequestParam double w) {
+		double bmi = w / Math.pow(h/100, 2);
+		return """
+				{
+				  "status": 200,
+				  "message": "BMI 計算成功",
+				  "data": {
+				    "height": %.1f,
+				    "weight": %.1f,
+				    "bmi": %.2f
+				  }
+				}
+			   """.formatted(h, w, bmi);
 	}
 	
 }
