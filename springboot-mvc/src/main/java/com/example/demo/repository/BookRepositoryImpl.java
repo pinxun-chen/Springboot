@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import com.example.demo.model.Book;
 
 @Repository
-public class BookRepositoryImpl {
+public class BookRepositoryImpl implements BookRepository {
 	// InMemory 版
 	private List<Book> books = new CopyOnWriteArrayList<>();
 	
@@ -33,8 +33,19 @@ public class BookRepositoryImpl {
 		return books.add(book);
 	}
 	
-	public boolean updateBook(Integer id, Book book) {
-		return books.set(id, book) != null;
+	public boolean updateBook(Integer id, Book updateBook) {
+		// 找到要修改的 book
+		Optional<Book> optBook = getBookById(id);
+		if(optBook.isEmpty()) {
+			return false;
+		}
+		// 找到該 book 在 books 的 index
+		int index = books.indexOf(optBook.get());
+		if(index == -1) {
+			return false;
+		}
+		// 替換
+		return books.set(index, updateBook) != null;
 	}
 	
 	public boolean deleteBook(Integer id) {
