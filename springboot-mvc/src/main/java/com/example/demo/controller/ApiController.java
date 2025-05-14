@@ -3,6 +3,9 @@ package com.example.demo.controller;
 import java.util.*;
 import java.util.stream.Collectors;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,6 +20,8 @@ import com.example.demo.response.ApiResponse;
 @RestController // 免去撰寫 @ResponseBody, 但若要透過 jsp 渲染則不適用
 @RequestMapping("/api") // 以下路徑統一都有 URL 前綴 "/api"
 public class ApiController {
+	
+	private static final Logger logger = LoggerFactory.getLogger(ApiController.class);
 	
 	/**
 	 * 1. 首頁
