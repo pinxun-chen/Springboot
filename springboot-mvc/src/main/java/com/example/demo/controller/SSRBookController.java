@@ -20,9 +20,9 @@ public class SSRBookController {
 	
 	// 查詢所有書籍
 	@GetMapping
-	public String findAllBooks(Model model) {
+	public String findAllBooks(Model model) {  // Model 是個容器
 		List<Book> books = bookService.findAllBooks();
-		model.addAttribute("books", books);
+		model.addAttribute("books", books); // 將要傳遞給 jsp 的資料放入 Model 容器中
 		return "book-list"; // 對應到 /WEB-INF/view/book-list.jsp
 	}
 	
