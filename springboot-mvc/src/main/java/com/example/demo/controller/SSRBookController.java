@@ -8,6 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.example.demo.exception.BookException;
@@ -55,5 +56,30 @@ public class SSRBookController {
 		return "redirect:/ssr/book";
 	}
 	
+	// 取得修改頁面
+	@GetMapping("/edit/{id}")
+	public String getEditPage(@PathVariable Integer id, Model model) {
+		try {
+			Book book = bookService.getBookById(id);
+			model.addAttribute("book", book);
+			return "book-edit";
+		} catch (BookException e) {
+			model.addAttribute("message", "查無該筆書籍資料: " + e.getMessage());
+			return "error";
+		}
+	}
+	
+	// 修改書籍
+	// @PostMapping("/edit/{id}")
+	@PutMapping("/edit/{id}")
+	public String editBook(@PathVariable Integer id, Book book, Model model) {
+		try {
+			bookService.updateBook(id, book);
+		} catch (BookException e) {
+			model.addAttribute("message", "修改錯誤: " + e.getMessage());
+			return "error";
+		}
+		return "redirect:/ssr/book";
+	}
 	
 }

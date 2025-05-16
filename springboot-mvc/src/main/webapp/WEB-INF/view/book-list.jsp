@@ -13,7 +13,7 @@
 				書名: <input type="text" name="name" required /><br />
 				價格: <input type="number" name="price" step="0.1" required /><br />
 				數量: <input type="number" name="amount" required /><br />
-				出刊: <input type="checkbox" name="pub" required /><br />
+				出刊: <input type="checkbox" name="pub" /><br />
 				<button type="submit">送出</button>
 			</form>
 		</div>
@@ -33,7 +33,8 @@
 							<td>${ book.amount }</td>
 							<td>${ book.pub }</td>
 							<td>
-								修改 | 
+								<a href="/ssr/book/edit/${ book.id }">修改</a> 
+								&nbsp;|&nbsp; 
 								<a href="/ssr/book/delete/${ book.id }">刪除</a>
 							</td>
 						</tr>
