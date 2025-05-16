@@ -241,3 +241,99 @@ You may need to update both your build tool settings as well as your IDE.
 2025-05-16T11:38:43.360+08:00  INFO 9012 --- [springboot-mvc] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-05-16T11:38:43.360+08:00  INFO 9012 --- [springboot-mvc] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2025-05-16T11:38:43.361+08:00  INFO 9012 --- [springboot-mvc] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-16T12:01:54.320+08:00  INFO 9012 --- [springboot-mvc] [RMI TCP Connection(31)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-16T12:01:54.321+08:00  INFO 9012 --- [springboot-mvc] [RMI TCP Connection(31)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-16T12:01:54.324+08:00  INFO 9012 --- [springboot-mvc] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-16T12:01:54.325+08:00  INFO 9012 --- [springboot-mvc] [RMI TCP Connection(31)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-16T12:01:54.329+08:00  INFO 9012 --- [springboot-mvc] [RMI TCP Connection(31)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-16T12:09:26.693+08:00  INFO 12032 --- [springboot-mvc] [main] c.example.demo.SpringbootMvcApplication  : Starting SpringbootMvcApplication using Java 21.0.6 with PID 12032 (C:\Users\NTPU\git\repository\springboot-mvc\target\classes started by NTPU in C:\Users\NTPU\git\repository\springboot-mvc)
+2025-05-16T12:09:26.694+08:00  INFO 12032 --- [springboot-mvc] [main] c.example.demo.SpringbootMvcApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-16T12:09:27.042+08:00  INFO 12032 --- [springboot-mvc] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-05-16T12:09:27.055+08:00  INFO 12032 --- [springboot-mvc] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2025-05-16T12:09:27.314+08:00  INFO 12032 --- [springboot-mvc] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-16T12:09:27.322+08:00  INFO 12032 --- [springboot-mvc] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-16T12:09:27.322+08:00  INFO 12032 --- [springboot-mvc] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-16T12:09:27.425+08:00  INFO 12032 --- [springboot-mvc] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-05-16T12:09:27.429+08:00  INFO 12032 --- [springboot-mvc] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-16T12:09:27.429+08:00  INFO 12032 --- [springboot-mvc] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 710 ms
+2025-05-16T12:09:27.552+08:00  INFO 12032 --- [springboot-mvc] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-05-16T12:09:27.695+08:00  INFO 12032 --- [springboot-mvc] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-16T12:09:27.784+08:00  INFO 12032 --- [springboot-mvc] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f2b584b
+2025-05-16T12:09:27.786+08:00  INFO 12032 --- [springboot-mvc] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-16T12:09:27.876+08:00  INFO 12032 --- [springboot-mvc] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-16T12:09:27.880+08:00  INFO 12032 --- [springboot-mvc] [main] c.example.demo.SpringbootMvcApplication  : Started SpringbootMvcApplication in 1.424 seconds (process running for 1.733)
+2025-05-16T12:09:30.232+08:00  INFO 12032 --- [springboot-mvc] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-16T12:09:30.232+08:00  INFO 12032 --- [springboot-mvc] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-16T12:09:30.233+08:00  INFO 12032 --- [springboot-mvc] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-16T12:11:11.004+08:00  INFO 12032 --- [springboot-mvc] [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-16T12:11:11.006+08:00  INFO 12032 --- [springboot-mvc] [RMI TCP Connection(11)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-16T12:11:11.008+08:00  INFO 12032 --- [springboot-mvc] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-16T12:11:11.010+08:00  INFO 12032 --- [springboot-mvc] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-16T12:11:11.013+08:00  INFO 12032 --- [springboot-mvc] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-16T12:11:13.227+08:00  INFO 11508 --- [springboot-mvc] [main] c.example.demo.SpringbootMvcApplication  : Starting SpringbootMvcApplication using Java 21.0.6 with PID 11508 (C:\Users\NTPU\git\repository\springboot-mvc\target\classes started by NTPU in C:\Users\NTPU\git\repository\springboot-mvc)
+2025-05-16T12:11:13.228+08:00  INFO 11508 --- [springboot-mvc] [main] c.example.demo.SpringbootMvcApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-16T12:11:13.523+08:00  INFO 11508 --- [springboot-mvc] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-05-16T12:11:13.534+08:00  INFO 11508 --- [springboot-mvc] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2025-05-16T12:11:13.739+08:00  INFO 11508 --- [springboot-mvc] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-16T12:11:13.748+08:00  INFO 11508 --- [springboot-mvc] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-16T12:11:13.748+08:00  INFO 11508 --- [springboot-mvc] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-16T12:11:13.851+08:00  INFO 11508 --- [springboot-mvc] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-05-16T12:11:13.855+08:00  INFO 11508 --- [springboot-mvc] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-16T12:11:13.855+08:00  INFO 11508 --- [springboot-mvc] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 606 ms
+2025-05-16T12:11:13.978+08:00  INFO 11508 --- [springboot-mvc] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-05-16T12:11:14.121+08:00  INFO 11508 --- [springboot-mvc] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-16T12:11:14.211+08:00  INFO 11508 --- [springboot-mvc] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f68a7f8
+2025-05-16T12:11:14.212+08:00  INFO 11508 --- [springboot-mvc] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-16T12:11:14.300+08:00  INFO 11508 --- [springboot-mvc] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-16T12:11:14.304+08:00  INFO 11508 --- [springboot-mvc] [main] c.example.demo.SpringbootMvcApplication  : Started SpringbootMvcApplication in 1.289 seconds (process running for 1.58)
+2025-05-16T12:11:18.460+08:00  INFO 11508 --- [springboot-mvc] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-16T12:11:18.460+08:00  INFO 11508 --- [springboot-mvc] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-16T12:11:18.461+08:00  INFO 11508 --- [springboot-mvc] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-05-16T12:14:51.995+08:00  INFO 11508 --- [springboot-mvc] [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-16T12:14:51.996+08:00  INFO 11508 --- [springboot-mvc] [RMI TCP Connection(14)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-16T12:14:51.998+08:00  INFO 11508 --- [springboot-mvc] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-16T12:14:52.000+08:00  INFO 11508 --- [springboot-mvc] [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-16T12:14:52.004+08:00  INFO 11508 --- [springboot-mvc] [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-16T12:14:53.648+08:00  INFO 5100 --- [springboot-mvc] [main] c.example.demo.SpringbootMvcApplication  : Starting SpringbootMvcApplication using Java 21.0.6 with PID 5100 (C:\Users\NTPU\git\repository\springboot-mvc\target\classes started by NTPU in C:\Users\NTPU\git\repository\springboot-mvc)
+2025-05-16T12:14:53.649+08:00  INFO 5100 --- [springboot-mvc] [main] c.example.demo.SpringbootMvcApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-16T12:14:53.945+08:00  INFO 5100 --- [springboot-mvc] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-05-16T12:14:53.956+08:00  INFO 5100 --- [springboot-mvc] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2025-05-16T12:14:54.158+08:00  INFO 5100 --- [springboot-mvc] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-16T12:14:54.167+08:00  INFO 5100 --- [springboot-mvc] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-16T12:14:54.167+08:00  INFO 5100 --- [springboot-mvc] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-16T12:14:54.270+08:00  INFO 5100 --- [springboot-mvc] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-05-16T12:14:54.274+08:00  INFO 5100 --- [springboot-mvc] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-16T12:14:54.275+08:00  INFO 5100 --- [springboot-mvc] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 604 ms
+2025-05-16T12:14:54.399+08:00  INFO 5100 --- [springboot-mvc] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-05-16T12:14:54.545+08:00  INFO 5100 --- [springboot-mvc] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-16T12:14:54.635+08:00  INFO 5100 --- [springboot-mvc] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39f0c343
+2025-05-16T12:14:54.637+08:00  INFO 5100 --- [springboot-mvc] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-16T12:14:54.724+08:00  INFO 5100 --- [springboot-mvc] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-16T12:14:54.728+08:00  INFO 5100 --- [springboot-mvc] [main] c.example.demo.SpringbootMvcApplication  : Started SpringbootMvcApplication in 1.294 seconds (process running for 1.585)
+2025-05-16T12:14:58.152+08:00  INFO 5100 --- [springboot-mvc] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-16T12:14:58.153+08:00  INFO 5100 --- [springboot-mvc] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-16T12:14:58.154+08:00  INFO 5100 --- [springboot-mvc] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-16T12:15:30.906+08:00  INFO 5100 --- [springboot-mvc] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-16T12:15:30.908+08:00  INFO 5100 --- [springboot-mvc] [RMI TCP Connection(10)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-16T12:15:30.910+08:00  INFO 5100 --- [springboot-mvc] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-16T12:15:30.912+08:00  INFO 5100 --- [springboot-mvc] [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-16T12:15:30.915+08:00  INFO 5100 --- [springboot-mvc] [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-16T12:15:32.576+08:00  INFO 7028 --- [springboot-mvc] [main] c.example.demo.SpringbootMvcApplication  : Starting SpringbootMvcApplication using Java 21.0.6 with PID 7028 (C:\Users\NTPU\git\repository\springboot-mvc\target\classes started by NTPU in C:\Users\NTPU\git\repository\springboot-mvc)
+2025-05-16T12:15:32.578+08:00  INFO 7028 --- [springboot-mvc] [main] c.example.demo.SpringbootMvcApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-16T12:15:32.872+08:00  INFO 7028 --- [springboot-mvc] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-05-16T12:15:32.883+08:00  INFO 7028 --- [springboot-mvc] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2025-05-16T12:15:33.087+08:00  INFO 7028 --- [springboot-mvc] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-16T12:15:33.095+08:00  INFO 7028 --- [springboot-mvc] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-16T12:15:33.095+08:00  INFO 7028 --- [springboot-mvc] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-16T12:15:33.194+08:00  INFO 7028 --- [springboot-mvc] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-05-16T12:15:33.198+08:00  INFO 7028 --- [springboot-mvc] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-16T12:15:33.198+08:00  INFO 7028 --- [springboot-mvc] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 599 ms
+2025-05-16T12:15:33.325+08:00  INFO 7028 --- [springboot-mvc] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-05-16T12:15:33.466+08:00  INFO 7028 --- [springboot-mvc] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-16T12:15:33.556+08:00  INFO 7028 --- [springboot-mvc] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ea71fc2
+2025-05-16T12:15:33.557+08:00  INFO 7028 --- [springboot-mvc] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-16T12:15:33.646+08:00  INFO 7028 --- [springboot-mvc] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-16T12:15:33.650+08:00  INFO 7028 --- [springboot-mvc] [main] c.example.demo.SpringbootMvcApplication  : Started SpringbootMvcApplication in 1.289 seconds (process running for 1.58)
+2025-05-16T12:15:36.845+08:00  INFO 7028 --- [springboot-mvc] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-16T12:15:36.845+08:00  INFO 7028 --- [springboot-mvc] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-16T12:15:36.846+08:00  INFO 7028 --- [springboot-mvc] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
